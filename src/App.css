@@ -1,0 +1,77 @@
+:root {
+  --mainGrey: #2c3e50;
+  --lightGrey: #bdc3c7;
+  --mainWhite: #f2f2f2;
+  --mainDark: #232526;
+  --mainYellow: #f5af19;
+  --mainLogo: #f1f2b5;
+  --mainLogos: #f1f2b583;
+}
+
+body {
+  font-family: "Balsamiq Sans", cursive !important;
+  background: var(--mainLogos) !important;
+  color: var(--mainDark) !important;
+}
+.text-title {
+  font-family: "Source Sans Pro", sans-serif;
+  letter-spacing: 0.3rem;
+  text-transform: uppercase;
+}
+.text-grey {
+  color: var(--mainGrey);
+}
+.text-bright {
+  color: var(--lightGrey);
+}
+/* .btn-black {
+  background: transparent;
+  text-transform: capitalize;
+  font-size: 0.8rem !important;
+  color: var(--mainDark);
+  border-radius: 0 !important;
+  border: 0.1rem solid var(--mainDark) !important;
+} */
+
+.btn-black {
+  text-transform: capitalize;
+  font-size: 1.1rem !important;
+  background: transparent;
+  border: 0.1rem solid var(--mainGrey) !important;
+  border-radius: 15px !important;
+  padding: 0.2rem 0.5rem;
+  margin: 0.2rem 0.5rem 0.2rem 0;
+  color: var(--mainGrey) !important;
+  cursor: pointer;
+  transition: all 0.5s ease-in-out;
+}
+.btn-black:hover {
+  background: var(--mainGrey) !important;
+  color: var(--lightGrey) !important;
+}
+.cart-icon {
+  cursor: pointer;
+  font-size: 1.2rem;
+  color: var(--mainGrey);
+}
+
+.btn-clear {
+  text-transform: capitalize;
+  font-size: 1.1rem !important;
+  background: transparent;
+  border: 0.1rem solid var(--mainGrey) !important;
+  border-radius: 20px !important;
+  padding: 0.2rem 0.5rem;
+  margin: 0.2rem 0.5rem 0.2rem 0;
+  color: var(--mainGrey) !important;
+  cursor: pointer;
+  transition: all 0.5s ease-in-out;
+}
+.btn-clear:hover {
+  background: var(--lightGrey) !important;
+  color: var(--mainGrey) !important;
+}
+
+#modal {
+  border-radius: 20px;
+}
